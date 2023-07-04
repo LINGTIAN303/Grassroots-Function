@@ -5,7 +5,7 @@ from roles import get_role_info  # 导入你刚才定义的函数
 import json
 
 # 创建类的实例
-mi = ModelInteraction("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")
+mi = ModelInteraction("")
 fd = FunctionDescriptor()
 ac = APIConnector("https://api.openai.com/v1/chat/completions")
 
