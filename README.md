@@ -346,7 +346,7 @@ _这就是如何使用这个包的基本步骤。如果你有任何疑问，或�
 ## 计划实现
 ### 预置方向
 * 已完成：```🟩``` 无
-* 半成品：```🟨``` [提示词]("preset_templates\prompt_words\PROMPT.md")
+* 半成品：```🟨``` [提示词](preset_templates\prompt_words\PROMPT.md)
 * 未完成：```◻️``` 搜索 ```◻️``` Stable-Diffusion
 ### 功能方向
 ```◻️``` 一个秘密的功能
