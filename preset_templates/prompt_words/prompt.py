@@ -1,11 +1,11 @@
 from grassroots_function.function_descriptor import FunctionDescriptor
 from grassroots_function.model_interaction import ModelInteraction
 from grassroots_function.api_connector import APIConnector
-from roles import get_role_info  # 导入你刚才定义的函数
+from roles import get_role_info
 import json
 
 # 创建类的实例
-mi = ModelInteraction("")
+mi = ModelInteraction("YOU_OPENAI_API_KEY")
 fd = FunctionDescriptor()
 ac = APIConnector("https://api.openai.com/v1/chat/completions")
 
@@ -37,7 +37,7 @@ arguments = json.loads(function_call['arguments'])
 # 检查function_call是否是一个字典
 
 if isinstance(function_call, dict):
-    # 调用你的函数
+    # 调用 get_role_info 函数
     role_info = get_role_info(arguments['role_title'])
 
     # 打印 role_info 的值

@@ -1,7 +1,7 @@
 # roles.py
 import json
 
-# 这是你的JSON数据，转换为Python的字典和列表
+# JSON数据，转换为Python的字典和列表
 data = {
     "tags": {
         "act_as": "充当",
@@ -213,13 +213,13 @@ data = {
 }
 
 
-# 这是你的函数，它接收一个角色的名称，然后返回该角色的描述和标签
+# 处理函数，它接收一个角色的名称，然后返回该角色的描述和标签
 def get_role_info(role_title):
     for role in data["roles"]:
         if role["title"] == role_title:
             role_info = {
                 "name": "role_info",
-                "arguments": json.dumps({"role_title": role_title}),  # 修改这一行
+                "arguments": json.dumps({"role_title": role_title}),
                 "result": {
                     "descn": role["descn"],
                     "tags": [data["tags"][tag] for tag in role["tags"]]
@@ -227,7 +227,7 @@ def get_role_info(role_title):
             }
             return role_info
     # 如果没有找到匹配的角色，返回一个空的结果
-    return {"name": "role_info", "arguments": json.dumps({"role_title": role_title}), "result": {}}  # 修改这里
+    return {"name": "role_info", "arguments": json.dumps({"role_title": role_title}), "result": {}}
 
 
 
