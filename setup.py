@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="grassroots_function",
-    version="0.0.1",
+    version="0.0.5",
     author="LINGTIAN303",
     author_email="lingtian.303@gmail.com",
     description="使用 OpenAI 的 GPT-3.5-turbo-0613 模型调用函数的软件包",
