@@ -93,6 +93,8 @@ print(response)
 _在这个示例代码中，我们首先导入了该包，然后我们初始化了`ModelInteraction`和`FunctionDescriptor`类，定义了一些函数，然后我们运行了一个对话，其中包括调用模型和处理模型的响应。_
 ***
 ## 详细的使用方法
+[测试示例文档（已成功，点击前往）](tests/test_dosc/TESTCODE.md)
+
 这个包的使用方式大致如下：
 
 ### 1. **安装包**
