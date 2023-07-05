@@ -166,9 +166,11 @@ _以上就是使用该包的步骤。通过这些步骤，你可以更容易地�
 ```◻️``` 更多的项目支持
 ***
 ## 版本
-💮 [v0.0.5版本信息]("dosc\version\README v0.0.5.md")
 
-💮 [v0.0.1版本信息]("dosc\version\README v0.0.1.md")
+💮 [v0.0.5版本信息]("dosc\version\READMEv0.0.5.md")
+
+💮 [v0.0.1版本信息]("dosc\version\READMEv0.0.1.md")
+
 ***
 ## 贡献
 
