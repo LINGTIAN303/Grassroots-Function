@@ -152,7 +152,7 @@ _以上就是使用该包的步骤。通过这些步骤，你可以更容易地�
 ## 计划实现
 ### 预置方向
 * 已完成：```🟩``` 无
-* 半成品：```🟨``` [提示词]("preset_templates\prompt_words\PROMPT.md")
+* 半成品：```🟨``` [提示词]("preset_templates/prompt_words/PROMPT.md")
 * 未完成：```◻️``` 搜索 ```◻️``` Stable-Diffusion
 ### 功能方向
 ```◻️``` 一个秘密的功能
@@ -167,9 +167,9 @@ _以上就是使用该包的步骤。通过这些步骤，你可以更容易地�
 ***
 ## 版本
 
-💮 [v0.0.5版本信息]("dosc\version\READMEv0.0.5.md")
+💮 [v0.0.5版本信息]("dosc/version/READMEv0.0.5.md")
 
-💮 [v0.0.1版本信息]("dosc\version\READMEv0.0.1.md")
+💮 [v0.0.1版本信息]("dosc/version/READMEv0.0.1.md")
 
 ***
 ## 贡献
