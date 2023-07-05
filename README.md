@@ -57,9 +57,12 @@ _这个包的设计目的就是为了简化这个过程，使得你只需要关�
 你可以使用 pip 来安装这个包：
 
 ```bash
-pip install grassroots-function #未发布pypi，请拉取到本地并导航到该包的根目录后使用该命令
+pip install grassroots-function # 未发布pypi，请拉取到本地并导航到该包的根目录后使用该命令
 ```
-
+如果不行，请执行以下命令：
+```bash
+python setup.py install # 导航到该包根目录下执行
+```
 ## 使用示例代码
 
 以下是一个示例代码：
