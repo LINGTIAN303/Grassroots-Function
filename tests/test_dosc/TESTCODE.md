@@ -220,15 +220,6 @@ openai_api_key = "Your_OpenAI_API_KEY"
 model_interaction = grassroots_function.model_interaction.ModelInteraction(openai_api_key)
 function_descriptor = grassroots_function.function_descriptor.FunctionDescriptor()
 
-# Define your functions
-@oa
-def add_numbers(a: int, b: int):
-    return a + b
-
-@oa
-def say_hello(name: str):
-    return f"Hello, {name}!"
-
 alpha_vantage_api_key = "Your_Alpha-Vantage_API_KEY"  # Replace with your Alpha Vantage API key
 api_connector = ac("https://www.alphavantage.co/query?")
 
